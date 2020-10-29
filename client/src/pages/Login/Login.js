@@ -54,7 +54,11 @@ function Login() {
         console.log(validPass);
 
         if (validEmail && validPass) {
-            firebase.auth().signInWithEmailAndPassword(validEmail, validPass).catch(function(error) {
+            firebase.auth().signInWithEmailAndPassword(validEmail, validPass)
+            .then(() => {
+                window.location.href = "/"
+            })
+            .catch(function(error) {
                 var errorMessage = error.message;
                 console.log(errorMessage);
               });
