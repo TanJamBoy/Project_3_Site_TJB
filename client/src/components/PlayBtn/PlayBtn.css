@@ -1,0 +1,12 @@
+.playBtn {
+    width: 400px;
+    height: 200px;
+    font-size: 100px !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:  rgb(175, 15, 15) !important;
+    background-color: darkslategray !important;
+    border-color: black !important;
+    border-radius: 50px !important;
+    box-shadow: 10px 10px 10px black;
+    margin-top: 300px;
+}

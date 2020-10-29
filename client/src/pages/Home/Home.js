@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from "../../components/Navbar/Navbar";
-import PlayBtn from "../../components/PlayBtn";
+import PlayBtn from "../../components/PlayBtn/PlayBtn";
 import "../Main.css";
 import * as firebase from "firebase/app";
 import "firebase/auth";
@@ -41,7 +41,7 @@ function Home() {
                 <div className="row">
                     <div className="col-12">
                         <center>
-                            <h1>Scavenger</h1>
+                            <h1 className="title">Scavenger</h1>
                         </center>
                     </div>
                 </div>

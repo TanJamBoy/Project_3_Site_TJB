@@ -4,7 +4,7 @@ import "./LoginMenu.css"
 function LoginMenu(props) {
     return (
         <form>
-            <h1>Login</h1>
+            <h1 className="loginTitle">Login</h1>
             <div className="form-group">
                 <label htmlFor="email">Email address</label>
                 <input type="email" className="form-control" id="email" aria-describedby="emailHelp" onChange={props.handleChange}/>

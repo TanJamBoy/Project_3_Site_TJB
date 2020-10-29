@@ -1,9 +1,10 @@
 import React from 'react';
+import "./PlayBtn.css"
 
 function PlayBtn() {
     return (
         <a href="https://sheltered-fortress-69651.herokuapp.com/">
-            <button className="btn btn-secondary">
+            <button className="playBtn btn btn-secondary">
                 Play
             </button>
         </a>
