@@ -1,0 +1,6 @@
+nav {
+    color: black;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(50, 0, 0, 1));
+    height: 100px;
+    opacity: 100%;
+}
